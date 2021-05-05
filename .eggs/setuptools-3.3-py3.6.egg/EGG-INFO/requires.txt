@@ -1,0 +1,6 @@
+
+[certs]
+certifi==1.0.1
+
+[ssl_sys_platform_win32_]
+wincertstore==0.2

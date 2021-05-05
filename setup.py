@@ -17,7 +17,7 @@ setup_requires = [
     'config2',
     'notion',
     'notion_as_db',
-    'socketio'
+    'ncloud_server'
 ]
 
 install_requires = [
@@ -25,7 +25,7 @@ install_requires = [
     'config2',
     'notion',
     'notion_as_db',
-    'socketio'
+    'ncloud_server'
 ]
 
 setup(
@@ -33,7 +33,7 @@ setup(
     author='Junsang Park',
     author_email='publichey@gmail.com',
     url='https://github.com/hoosiki/cloud_manager.git',
-    version='0.0.1',
+    version='0.0.5',
     long_description=readme,
     long_description_content_type="text/markdown",
     description='Package for managing cloud service using python. NCloud, AWS, AZURE, GCP',
@@ -42,5 +42,5 @@ setup(
     include_package_date=False,
     setup_requires=setup_requires,
     install_requires=install_requires,
-    download_url='https://github.com/hoosiki/notion-as-db/blob/master/dist/cloud_manager-0.0.1.tar.gz'
+    download_url='https://github.com/hoosiki/cloud_manager/blob/master/dist/cloud_manager-0.0.5.tar.gz'
 )
